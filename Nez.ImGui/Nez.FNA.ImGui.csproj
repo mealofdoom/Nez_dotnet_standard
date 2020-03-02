@@ -27,8 +27,8 @@
 
 
 	<ItemGroup>
-		<ProjectReference Include="../../FNA/FNA.csproj" />
-		<ProjectReference Include="../Nez.Portable/Nez.FNA.csproj" />
+		<ProjectReference Include="../../FNA/FNA.Core.csproj" />
+		<ProjectReference Include="../Nez.Portable/Nez.FNA.Standard.csproj" />
 		<ProjectReference Include="../Nez.Persistence/Nez.FNA.Persistence.csproj" />
 	</ItemGroup>
 
