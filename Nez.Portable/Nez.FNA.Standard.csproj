@@ -19,11 +19,7 @@
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
         <DefineConstants>FNA</DefineConstants>
     </PropertyGroup>
-
-    <ItemGroup>
-      	<Compile Remove="Graphics\SVG\Shapes\Paths\SvgPathBuilder.cs" />
-    </ItemGroup>
-
+    
     <ItemGroup>
       	<None Remove="Content\NezDefaultBMFont.xnb" />
     </ItemGroup>
